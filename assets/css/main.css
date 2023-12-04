@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #1d1d1d;
+    --grey-dark: #414141;
+    --light: #f7f7f7;
+    --mid: #ededed;
+    --grey: #989898;
+    --gray: #989898;
+    --green: #28a92b;
+    --green-dark: #4e9815;
+    --green-light: #6fb936;
+    --blue: #2c7ad2;
+    --purple: #8d3dae;
+    --red: #c82736;
+    --orange: #e77614;
+    accent-color: var(--green);
+}
+
+.primary {
+    color: var(--green);
+}
+
+.secondary {
+    color: var(--blue);
+}
+
+.selector {
+    color: var(--purple);
+}
+
+.primary select {
+    border-color: var(--green);
+}
+
+.secondary select {
+    border-color: var(--blue);
+}
+
+.cta button {
+    background-color: var(--green);
+}
+
+html,
+body {
+    height: auto;
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: 'Signika Negative', sans-serif;
+}
