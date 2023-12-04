@@ -19,10 +19,10 @@ export default defineNuxtConfig({
     },
   },
   image: {
-    // provider: 'netlify',
-    // netlify: {
-    //   baseURl: process.env.IMAGES_URL
-    // },
+    provider: 'netlify',
+    netlify: {
+      baseURl: process.env.IMAGES_URL
+    },
   },
   plugins: [
     '~/plugin/gsap.ts',
